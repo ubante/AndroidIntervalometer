@@ -49,6 +49,11 @@ public class Output {
                     s.getNumberOfFrames()));
         }
 
+        // my intervalometers start two seconds early for focusing - make anote
+        if (s.getIntervalBetweenFrames() <= 2) {
+            notes.add("Warning: your delay between frames may get in the way of the intervalometer pre-focusing.");
+        }
+
         // check for long sequences
         if (r.getDurationHours() > 2) {
             notes.add(String.format("Warning: your duration (%.2f) is >2hours - consider Aperature priority.",

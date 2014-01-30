@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyApplication/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication/Intervalometer.iml" filepath="$PROJECT_DIR$/MyApplication/Intervalometer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KitchenSink/KitchenSink.iml" filepath="$PROJECT_DIR$/KitchenSink/KitchenSink.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplicationProject.iml" filepath="$PROJECT_DIR$/MyApplicationProject.iml" />
     </modules>
   </component>
